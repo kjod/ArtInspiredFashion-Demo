@@ -1,0 +1,12 @@
+#header {
+	width: 100%;
+	border-bottom-width:2px;
+	border-bottom-color:black;
+	border-bottom-style: solid;
+	background: #7395AE;
+	height: 10%;
+}
+
+h1 {
+    margin-top: 0;
+}

@@ -1,0 +1,56 @@
+#artworkSidebar, #clothingSidebar{
+	background: #5d5c61;
+	width: 20%;
+	float:left;		
+	height: 100%;
+	position: relative;
+	color: white;
+	top: 0; 
+	bottom: 0;
+}
+
+#clothingSidebar{
+	border-right-width:2px;
+	border-right-color:black;
+	border-right-style: solid;
+}
+
+.images{
+	max-width:48%;
+  	max-height:48%;
+  	width: auto;
+  	height: auto;
+}
+
+.images:hover {
+	max-width:52%;
+  	max-height:52%;
+  	cursor: pointer;
+}
+
+.sel_invert, .img_invert:hover {
+	-webkit-filter:invert(100%);
+}
+
+.img_container{
+	display: inline;
+}
+
+#artworkSidebar{
+	border-left-width:2px;
+	border-left-color:black;
+	border-left-style: solid;
+}
+
+.selected_image{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 5px;
+}
+
+.selected_image img{
+ 	padding:1px;
+ 	max-width:52%;
+  	max-height:52%;
+  	border:5px solid #021a40;
+}
